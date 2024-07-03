@@ -1,0 +1,31 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bg.jpg');
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.editor, .preview {
+    flex: 1;
+    padding: 1rem;
+    background-color: rgba(212, 206, 206, 0.9);
+}
+
+.editor textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.markdown-body {
+    /* box-sizing: border-box; */
+    /* min-height: 100%; */
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
